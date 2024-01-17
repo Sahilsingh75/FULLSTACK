@@ -1,0 +1,89 @@
+### Difference between inline CSS and internal CSS:
+
+Inline CSS:
+html
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h1 style="color: blue;">Inline CSS Example</h1>
+    <p style="font-size: 18px;">This is a paragraph with inline CSS.</p>
+</body>
+</html>
+
+
+Internal CSS:
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            color: blue;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal CSS Example</h1>
+    <p>This is a paragraph with internal CSS.</p>
+</body>
+</html>
+
+
+### Code for getting checkbox data:
+html
+<!DOCTYPE html>
+<html>
+<body>
+    <form>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
+        <label for="checkbox1">Option 1</label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+        <label for="checkbox2">Option 2</label><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+### Code for getting the drop-down box:
+
+html
+<!DOCTYPE html>
+<html>
+<body>
+    <form>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+### Difference between unordered and ordered lists:
+
+An *unordered list* (<ul>) is represented by bullet points (•) for each item, and the order of the items doesn't matter. Example:
+html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+
+An *ordered list* (<ol>) is represented by numbered items, and the order matters. Example:
+html
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ol>
